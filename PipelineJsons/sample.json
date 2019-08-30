@@ -1,0 +1,15 @@
+{
+    "apiId": "API ID HERE", 
+    "typeName": "Mutation", 
+    "fieldName": "createCampaign", 
+    "requestMappingTemplate": "CreateCampaign.req.vtl",
+    "responseMappingTemplate": "Standard.res.vtl",
+    "kind": "PIPELINE", 
+    "pipelineConfig": {
+        "functions": [
+            "GroupUserOrganizerCheck",
+            "Mutation_createCampaign_Function",
+            "CreateCampaignUserOrganizer"
+        ]
+    }
+}

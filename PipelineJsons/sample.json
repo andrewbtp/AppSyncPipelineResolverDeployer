@@ -2,7 +2,7 @@
     "apiId": "API ID HERE", 
     "typeName": "Mutation", 
     "fieldName": "createCampaign", 
-    "requestMappingTemplate": "CreateCampaign.req.vtl",
+    "requestMappingTemplate": "Standard.req.vtl",
     "responseMappingTemplate": "Standard.res.vtl",
     "kind": "PIPELINE", 
     "pipelineConfig": {

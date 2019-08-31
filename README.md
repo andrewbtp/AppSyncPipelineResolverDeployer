@@ -24,6 +24,10 @@ so deploying function code from this repo is the most likely future feature.
 
 Because this was quick and dirty.
 
+**Why aren't you using Cloud Formation Templates?**
+
+I got the command line commands working before I thought to look into CFTs. Maybe I'll change this to use CFTs in the future.
+
 **Are you going to add support for X?**
 
 Probably not unless I need it. Feel free to make a PR.
